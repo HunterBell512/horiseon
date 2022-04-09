@@ -54,10 +54,6 @@ header div ul li {
     display: inline-block;
     margin-left: 25px;
 }
-
-.seo {
-    color: black;
-}
 /* END HEADER STYLES */
 
 /* Begin Hero Styles */
@@ -89,13 +85,6 @@ header div ul li {
 }
 /* END WHAT-WE-DO SECTION STYLES */
 
-/* 
-    Removed .benefit-lead, .benefit-brand, and .benefit-cost classes
-    and replaced them with a reusable .secondary-card class.
-
-    Removed some extraneous properties from .benefits.
-*/
-
 /* Begin Benefits Section Styles */
 .benefits {
     margin-right: 20px;
@@ -105,22 +94,9 @@ header div ul li {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
+/* END BENEFITS SECTION STYLES */
 
-.secondary-card {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.secondary-card h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.secondary-card img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
+/* Begin Card Styles */
 
 /* 
     Removed .search-engine-optimization, .online-reputation management
@@ -128,7 +104,6 @@ header div ul li {
     .primary-card class.
 */
 
-/* Begin Card Styles */
 .primary-card {
     margin-bottom: 20px;
     padding: 50px;
@@ -145,6 +120,29 @@ header div ul li {
 .primary-card h2 {
     margin-bottom: 20px;
     font-size: 36px;
+}
+
+/* 
+    Removed .benefit-lead, .benefit-brand, and .benefit-cost classes
+    and replaced them with a reusable .secondary-card class.
+
+    Removed some extraneous properties from .benefits.
+*/
+
+.secondary-card {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+.secondary-card h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.secondary-card img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
 }
 /* END CARD STYLES */
 
